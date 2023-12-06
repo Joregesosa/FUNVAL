@@ -1,9 +1,16 @@
 ---
+import About from "../components/About.astro";
+import Courses from "../components/Courses.astro";
+import Egresados from "../components/Egresados.astro";
+import HeroSection from "../components/HeroSection.astro";
+import Videos from "../components/Videos.astro";
 import Layout from "../layouts/Layout.astro";
-
 ---
 
-<Layout title="JoregeSosa">
-  
-  <main></main>
+<Layout title="Funval">
+  <HeroSection />
+  <Courses />
+  <About />
+  <Videos/>
+  <Egresados/>
 </Layout>
